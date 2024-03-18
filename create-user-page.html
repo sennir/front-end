@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Create user</title>
+  </head>
+
+  <body class="center">
+
+    <h3 id="create">Luo uusi käyttäjä</h3>
+
+    <form class="create_user_form">
+      <label for="username">Käyttäjänimi</label>
+      <input type="text" name="username" placeholder="uusi käyttäjänimi" autocomplete="username" required/>
+      <label for="password">Salasana</label>
+      <input type="password" name="password" placeholder="uusi salasana (min 3 merkkiä)" autocomplete="new-password" required/>
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="example@example.com" required/>
+      <input name="submit" type="submit" value="Luo uusi käyttäjä" class="createuser" />
+    </form>
+   
+    <a href="/index.html" class="button">Siirry takaisin kirjautumissivulle</a>
+
+  </body>
+    <script type="module" src="/create-user-page.js"></script>
+</html>
